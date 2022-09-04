@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!-- Penghubung ke bootstrap -->
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <!-- Penghubung ke file css -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/Video4/Images/Washburn_Guitars_Logo.png" width="150" alt="" loading="Bootstrap">
+            </a>
+
+
+            <div class="container-fluid">
+                <!-- Fungsi Dropdown Menu jika layar potrait -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel/Slider -->
+    <div class="container mt-4 mb-4">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Isi slider -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/Video4/Images/Ibanez RGD Prestige.png" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Video4/Images/Ibanez RGD Standart.png" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Video4/Images/BC RIch.jpg" class="d-block" alt="...">
+                </div>
+            </div>
+            <!-- Tombol geser -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col lima kuning">baris 1 kolom 1</div>
+            <div class="col lima hijau">baris 1 kolom 2</div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8 col-lg-2 col-md-4 col-sm-2 merah">baris 2 kolom 1</div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 kuning">baris 2 kolom 2</div>
+            <div class="col-xl-2 col-lg-6 col-md-4 col-sm-4 hijau">baris 2 kolom 3</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
